@@ -1,0 +1,4 @@
+clear
+reset
+as echo echo
+ld echo

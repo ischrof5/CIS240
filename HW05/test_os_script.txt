@@ -1,0 +1,7 @@
+clear
+reset
+as os os
+as user user
+ld os
+ld user
+break set END_PROGRAM

@@ -1,0 +1,9 @@
+all: rpn
+
+rpn: rpn.c stack.c stack.h
+	clang -Wall -o rpn rpn.c -lm  stack.c
+
+clean:
+	rm *.o rpn
+
+.PHONY: all clean

@@ -1,0 +1,7 @@
+clear
+reset
+as os os
+as test1 libc utils test1
+ld os
+ld test1
+break set TRAP_HALT

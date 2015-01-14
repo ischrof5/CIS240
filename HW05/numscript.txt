@@ -1,0 +1,7 @@
+clear
+reset
+as os os
+as num num
+ld os
+ld num
+break set END
